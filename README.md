@@ -44,7 +44,7 @@ Syntax:
 ```php $this->Image->resize(imagename.extension, width, height);```
 
 Example:
-```php $this->Image->resize('example.png', 500, 200);`
+```php $this->Image->resize('example.png', 500, 200);```
 
 ## Contributors
 
