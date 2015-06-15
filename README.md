@@ -35,37 +35,34 @@ class UsersController extends AppController {
     public $components = array('Image');
     ...
 }
-?>
-```
+?>```
 
 Add the following line to the method in controller, in which you to resize the image.
 Syntax:
-
 ```php <?php $this->Image->resize(imagename.extension, width, height); ?>```
 
 Example:
-```php <?php  $this->Image->resize('example.png', 500, 200); ?>```
+```php <?php $this->Image->resize('example.png', 500, 200); ?>``` 
 
 To edit the source and destination location check the following for this code.
 File:
-```/app/Controller/Component/ImageComponent.php ```
+```/app/Controller/Component/ImageComponent.php```
 
 Code:
-```php
-<?php
+```php <?php
 
 class ImageComponent extends Component {
-	
-	/**
-	 * Global variables to initialize
-	 *
-	 * @var string
-	 */
-	public $rootDir;
-	public $sourceLocation = '/files/images/';
-	public $destinationLocation = '/files/';
-	public $date;
-
+    
+    /**
+     * Global variables to initialize
+     *
+     * @var string
+     */
+    public $rootDir;
+    public $sourceLocation = '/files/images/';
+    public $destinationLocation = '/files/';
+    public $date;
+    ...
 ?>```
 
 ## Contributors
