@@ -49,8 +49,9 @@ To edit the source/destination location check the following for this code.
 File
 `/app/Controller/Component/ImageComponent.php`
 
-Imagecomponent file code below
-```php <?php 
+Imagecomponent file code below 
+`
+<?php 
 class ImageComponent extends Component 
 
 public $rootDir;
@@ -58,7 +59,7 @@ public $sourceLocation = '/files/images/';
 public $destinationLocation = '/files/';
 public $date;
 ...
-?>```
+?>`
 
 ## Contributors
 
