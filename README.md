@@ -20,7 +20,7 @@ The following things will be covered the following versions:
 
 Place the ImageComponent.php file in the root folder of the following:
 
-`php /app/Controller/Component/ImageComponent.php`
+`/app/Controller/Component/ImageComponent.php`
 
 Add the following lines, in which controller you wants to include the component.
 
@@ -30,8 +30,7 @@ File:
 `/app/Controller/UsersController.php`
 
 Code
-```php
-<?php
+```php <?php
 class UsersController extends AppController {
     public $components = array('Image');
     ...
@@ -40,10 +39,14 @@ class UsersController extends AppController {
 
 Add the following line to the method in controller, in which you to resize the image.
 Syntax:
-```php <?php $this->Image->resize(imagename.extension, width, height); ?>```
+```php <?php
+$this->Image->resize(imagename.extension, width, height);
+?>```
 
 Example:
-```php <?php $this->Image->resize('example.png', 500, 200); ?>``` 
+```php <?php
+$this->Image->resize('example.png', 500, 200);
+?>``` 
 
 To edit the source and destination location check the following for this code.
 File:
@@ -51,7 +54,6 @@ File:
 
 Code:
 ```php <?php
-
 class ImageComponent extends Component {
     
     /**
