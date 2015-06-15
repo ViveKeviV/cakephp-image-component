@@ -27,7 +27,7 @@ Example File
 /app/Controller/UsersController.php
 
 Code needs to be added
-```<?php class UsersController extends AppController {
+```php <?php class UsersController extends AppController {
     public $components = array('Image');
     ...
 }
