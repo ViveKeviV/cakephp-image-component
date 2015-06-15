@@ -20,14 +20,15 @@ The following things will be covered the following versions:
 
 Place the ImageComponent.php file in the root folder of the following:
 
-```php /app/Controller/Component/ImageComponent.php```
+`php /app/Controller/Component/ImageComponent.php`
 
 Add the following lines, in which controller you wants to include the component.
 
 Example as below:-
 
 File:
-```/app/Controller/UsersController.php```
+`/app/Controller/UsersController.php`
+
 Code
 ```php
 <?php
@@ -46,7 +47,7 @@ Example:
 
 To edit the source and destination location check the following for this code.
 File:
-```/app/Controller/Component/ImageComponent.php```
+`/app/Controller/Component/ImageComponent.php`
 
 Code:
 ```php <?php
