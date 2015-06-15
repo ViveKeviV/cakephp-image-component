@@ -27,11 +27,11 @@ Example File
 /app/Controller/UsersController.php
 
 Code needs to be added
-<?php class UsersController extends AppController {
+```<?php class UsersController extends AppController {
     public $components = array('Image');
     ...
 }
-?>
+?>```
 
 Add the following line to the method in controller, in which you to resize the image.
 
