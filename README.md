@@ -49,7 +49,7 @@ To edit the source/destination location check the following for this code.
 File
 `/app/Controller/Component/ImageComponent.php`
 
-Source code
+Imagecomponent file code
 `<?php
 class ImageComponent extends Component {
     
