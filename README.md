@@ -53,11 +53,6 @@ Imagecomponent file code below
 `<?php
 class ImageComponent extends Component {
 
-/**
- * Global variables to initialize
- *
- * @var string
- */
 public $rootDir;
 public $sourceLocation = '/files/images/';
 public $destinationLocation = '/files/';
@@ -68,4 +63,4 @@ public $date;
 
 ## Contributors
 
-[ViveKeviV](https//github.com/ViveKeviV)
+[ViveKeviV](https://github.com/ViveKeviV)
