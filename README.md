@@ -51,14 +51,14 @@ File
 
 Imagecomponent file code below
 `<?php
-class ImageComponent extends Component {
+class ImageComponent extends Component 
 
 public $rootDir;
 public $sourceLocation = '/files/images/';
 public $destinationLocation = '/files/';
 public $date;
 ...
-}
+
 ?>`
 
 ## Contributors
