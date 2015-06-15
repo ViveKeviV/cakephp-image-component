@@ -50,14 +50,14 @@ File
 `/app/Controller/Component/ImageComponent.php`
 
 Imagecomponent file code below 
-`<?php class ImageComponent extends Component {
+```php <?php class ImageComponent extends Component {
 public $rootDir;
 public $sourceLocation = '/files/images/';
 public $destinationLocation = '/files/';
 public $date;
 //...
 }
-?>`
+?>```
 
 ## Contributors
 
