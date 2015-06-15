@@ -2,11 +2,12 @@ CakePHP Image Component
 =======================
 
 This component gives you the ability to resize images in aspect ratio, also without losing the transparency of png/gif images. This component reads the source location of image and resize image and saves it destination location.
+Controller.php
 
 ## Version
 This is a basic version 0.0.1
 
-The following things will be covered the following versions:
+The following things will be covered the following versions
 * While uploading a image with predefined size will be resized.
 * Selecting customized paths for both source & destination.
 
@@ -18,42 +19,38 @@ The following things will be covered the following versions:
 
 ## Installation
 
-Place the ImageComponent.php file in the root folder of the following:
-
-`/app/Controller/Component/ImageComponent.php`
+Place the ImageComponent.php file in the root folder of the following
+/app/Controller/Component/ImageComponent.php
 
 Add the following lines, in which controller you wants to include the component.
+Example File
+/app/Controller/UsersController.php
 
-Example as below:-
-
-File:
-`/app/Controller/UsersController.php`
-
-Code
-```php <?php
-class UsersController extends AppController {
+Code needs to be added
+<?php class UsersController extends AppController {
     public $components = array('Image');
     ...
 }
-?>```
+?>
 
 Add the following line to the method in controller, in which you to resize the image.
-Syntax:
-```php <?php
+
+Syntax code for resize
+<?php
 $this->Image->resize(imagename.extension, width, height);
-?>```
+?>
 
-Example:
-```php <?php
+Example code to resize
+<?php
 $this->Image->resize('example.png', 500, 200);
-?>``` 
+?> 
 
-To edit the source and destination location check the following for this code.
-File:
-`/app/Controller/Component/ImageComponent.php`
+To edit the source/destination location check the following for this code.
+File
+/app/Controller/Component/ImageComponent.php
 
-Code:
-```php <?php
+Source code
+<?php
 class ImageComponent extends Component {
     
     /**
@@ -66,8 +63,8 @@ class ImageComponent extends Component {
     public $destinationLocation = '/files/';
     public $date;
     ...
-?>```
+?>
 
 ## Contributors
 
-[ViveKeviV](https://github.com/ViveKeviV)
+[ViveKeviV](https//github.com/ViveKeviV)
