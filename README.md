@@ -49,20 +49,20 @@ To edit the source/destination location check the following for this code.
 File
 `/app/Controller/Component/ImageComponent.php`
 
-Imagecomponent file code
+Imagecomponent file 
 `<?php
 class ImageComponent extends Component {
-    
-    /**
-     * Global variables to initialize
-     *
-     * @var string
-     */
-    public $rootDir;
-    public $sourceLocation = '/files/images/';
-    public $destinationLocation = '/files/';
-    public $date;
-    ...
+
+/**
+ * Global variables to initialize
+ *
+ * @var string
+ */
+public $rootDir;
+public $sourceLocation = '/files/images/';
+public $destinationLocation = '/files/';
+public $date;
+...
 ?>`
 
 ## Contributors
